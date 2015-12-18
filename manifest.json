@@ -1,0 +1,31 @@
+{
+  "background": {
+    "scripts": [
+      "js/background.js",
+      "js/page.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "images/icons/19x19.png",
+    "default_title": "Columba - An automatic web UI test tool"
+  },
+  "icons": {
+    "16": "images/icons/16x16.png",
+    "19": "images/icons/19x19.png",
+    "32": "images/icons/32x32.png",
+    "48": "images/icons/48x48.png",
+    "128": "images/icons/128x128.png"
+  },
+  "description": "An automatic web UI test tool",
+  "manifest_version": 2,
+  "name": "Columba",
+  "short_name": "Columba - An automatic web UI test tool",
+  "minimum_chrome_version": "28",
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "unlimitedStorage",
+    "storage"
+  ],
+  "version": "1.0.0"
+}
