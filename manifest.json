@@ -1,10 +1,22 @@
 {
   "background": {
     "scripts": [
-      "js/background.js",
-      "js/page.js"
+      "js/background.js"
     ]
   },
+  "content_scripts": [
+    {
+      "js": [
+        "js/page.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ],
   "browser_action": {
     "default_icon": "images/icons/19x19.png",
     "default_title": "Columba - An automatic web UI test tool"
