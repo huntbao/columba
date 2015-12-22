@@ -1,5 +1,7 @@
 ﻿//author @huntbao
-/*global $ */
-$ = (selector) => {
-    return document.querySelectorAll(selector)
+/*global $, document */
+$ = (selector, context) => {
+    return (context || document).querySelectorAll(selector)
 }
+
+

@@ -54,7 +54,7 @@ jasmineRequire.HtmlReporter = function(j$) {
 
     this.initialize = function() {
       clearPrior();
-      htmlReporterMain = createDom('div', {className: 'jasmine_html-reporter'},
+      htmlReporterMain = createDom('div', {className: 'columba_jasmine_html-reporter'},
         createDom('div', {className: 'jasmine-banner'},
           createDom('a', {className: 'jasmine-title', href: 'http://jasmine.github.io/', target: '_blank'}),
           createDom('span', {className: 'jasmine-version'}, j$.version)
@@ -318,7 +318,7 @@ jasmineRequire.HtmlReporter = function(j$) {
     return this;
 
     function find(selector) {
-      return getContainer().querySelector('.jasmine_html-reporter ' + selector);
+      return getContainer().querySelector('.columba_jasmine_html-reporter ' + selector);
     }
 
     function clearPrior() {
@@ -375,7 +375,7 @@ jasmineRequire.HtmlReporter = function(j$) {
     }
 
     function setMenuModeTo(mode) {
-      htmlReporterMain.setAttribute('class', 'jasmine_html-reporter ' + mode);
+      htmlReporterMain.setAttribute('class', 'columba_jasmine_html-reporter ' + mode);
     }
 
     function noExpectations(result) {
