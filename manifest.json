@@ -1,6 +1,7 @@
 {
   "background": {
     "scripts": [
+      "js/storagearea.js",
       "js/background.js"
     ]
   },

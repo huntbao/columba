@@ -1,12 +1,43 @@
-body {
-    overflow: hidden;
+html {
+  color: #333;
 }
-
+body {
+  overflow: hidden;
+}
 #ace-editor {
-    margin: 0;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 200px;
+  right: 0;
+}
+.mod-actions {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  overflow: hidden;
+}
+.mod-actions .actions-wrap {
+  padding: 0 14px;
+}
+.mod-actions h1 {
+  background: url("logo.png") no-repeat;
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  color: #824240;
+  padding: 8px 0 0 50px;
+  font-family: cursive;
+}
+.mod-actions .desc {
+  border-bottom: 1px solid #c5c5c5;
+}
+.mod-actions .actions {
+  margin: 12px 0 0;
+}
+.mod-actions .actions .load-btn {
+  margin: 12px 0 0;
 }
