@@ -1,7 +1,7 @@
 ﻿//author @huntbao
 /*global $, document */
-$ = (selector, context) => {
-    return (context || document).querySelectorAll(selector)
+$ = (selector, node) => {
+    return (node || document).querySelectorAll(selector)
 }
 
 
