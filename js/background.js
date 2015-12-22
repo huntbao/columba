@@ -1,4 +1,5 @@
-﻿(function () {
+﻿//author @huntbao
+(function () {
     /*global chrome */
     // see https://developer.chrome.com/extensions/content_scripts
     'use strict'

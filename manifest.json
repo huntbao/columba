@@ -38,6 +38,7 @@
   "name": "Columba",
   "short_name": "Columba - An automatic web UI test tool",
   "minimum_chrome_version": "28",
+  "options_page": "options.html",
   "permissions": [
     "http://*/*",
     "https://*/*",
