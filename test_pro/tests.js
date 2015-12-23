@@ -1,6 +1,5 @@
 //author @huntbao
 /*global describe, it, expect */
-
 describe('Todo test', function () {
     it('Add todo', function () {
         var newTodo = 'New todo test'
@@ -16,8 +15,8 @@ describe('Todo test', function () {
         var todoCountEl = $('.todo-count strong')[0]
         var todoCount = parseInt(todoCountEl.textContent)
         var todoLis = $('.todo-list > li')
-        var num = todoLis.length;
-        var toggleBtns = $('.toggle', todoLis);
+        var num = todoLis.length
+        var toggleBtns = $('.toggle', $('.todo-list')[0])
         var toggleBtn = toggleBtns[toggleBtns.length-1]
         var event = new MouseEvent('click', {
             "bubbles": true
@@ -46,8 +45,8 @@ describe('Todo test', function () {
 
     it('Delete todo', function() {
         var todoLis = $('.todo-list > li')
-        var num = todoLis.length;
-        var destroyBtns = $('.destroy', todoLis);
+        var num = todoLis.length
+        var destroyBtns = $('.destroy', $('.todo-list')[0])
         var destroyBtn = destroyBtns[destroyBtns.length-1]
         var event = new MouseEvent('click', {
             "bubbles": true
