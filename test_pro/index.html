@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>VanillaJS • TodoMVC</title>
-    <link rel="stylesheet" href="node_modules/todomvc-common/base.css">
-    <link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
+    <link rel="stylesheet" href="lib/todomvc-common/base.css">
+    <link rel="stylesheet" href="lib/todomvc-app-css/index.css">
 </head>
 <body>
 <section class="todoapp">
@@ -13,7 +13,7 @@
         <input class="new-todo" placeholder="What needs to be done?" autofocus>
     </header>
     <section class="main">
-        <input class="toggle-all" type="checkbox">
+        <input class="toggle-all" id="toggle-all" type="checkbox">
         <label for="toggle-all">Mark all as complete</label>
         <ul class="todo-list"></ul>
     </section>
@@ -42,7 +42,7 @@
 
     <p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
 </footer>
-<script src="node_modules/todomvc-common/base.js"></script>
+<script src="lib/todomvc-common/base.js"></script>
 <script src="js/helpers.js"></script>
 <script src="js/store.js"></script>
 <script src="js/model.js"></script>

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An automatic web UI test tool",
   "author": "HuntBao",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/huntbao/columba.git"
