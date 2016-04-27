@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Columba - An automatic web UI test tool</title>
+    <link rel="stylesheet" href="css/module.options.css" type="text/css"/>
+    <base target="_blank"/>
+</head>
+<body>
+<pre id="ace-editor" class="ace-editor"></pre>
+<div class="mod-actions">
+    <div class="actions-wrap">
+        <h1>Columba</h1>
+        <div class="desc">
+            <p>Columba integrates <a href="http://jasmine.github.io/edge/introduction.html" target="_blank">Jasmine</a>, so you can write jasmine test suites in the right editor.</p>
+            <p>Also, you can load your jasmine tests from files.</p>
+            <p>Press Ctrl+S(if on OSX, use Command+S) to save the tests.</p>
+            <p>Enjoy testing!</p>
+        </div>
+        <div class="actions">
+            <input type="file" id="test-file"/>
+            <button class="load-btn" id="load-btn">Load tests</button>
+        </div>
+    </div>
+</div>
+<script src="js/lib/ace/ace.js"></script>
+<script src="js/storagearea.js"></script>
+<script src="js/options.js"></script>
+</body>
+</html>

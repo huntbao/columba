@@ -1,4 +1,4 @@
 .idea
 node_modules
-chrome
 npm-debug.log
+__test.js
