@@ -27,7 +27,15 @@ class OptionPage {
       }
     })
     StorageArea.get(SAVED_TESTS_STR, (result) => {
-      editor.setValue(result[SAVED_TESTS_STR] || '', -1)
+      editor.setValue(result[SAVED_TESTS_STR] ||
+`/*
+  global utils:
+
+  $ = (selector, node) => {
+    return (node || document).querySelectorAll(selector)
+  }
+*/\n`
+        , 1)
     })
   }
 
