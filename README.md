@@ -5,8 +5,6 @@ Columba
 
 Chrome Web Store [安装地址](https://chrome.google.com/webstore/detail/columba/fkfobnpmnhdlgfmdfiipjgfdhenlbhpo)
 
-
-
 ## 使用简介
 
 Web UI 自动化测试工具:
@@ -18,6 +16,9 @@ Web UI 自动化测试工具:
 3. 按 Ctrl+S (OS X, Command + S) 保存测试代码
 
 4. 切换到要测试的页面, 点击图标即可看到测试结果报告
+
+## 编写测试代码
+测试代码的编写请参考 <a href="http://jasmine.github.io/edge/introduction.html" target="_blank">Jasmine</a> 
 
 ## Demo
 
